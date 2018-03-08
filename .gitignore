@@ -9,3 +9,5 @@ out
 *.iml
 
 ebin
+rebar3
+_build/
