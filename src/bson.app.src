@@ -1,14 +1,10 @@
-{application, bson,
- [
-  {description, "BSON are JSON-like objects with a standard binary serialization. See bsonspec.org"},
-  {vsn, "0.3.0"},
-  {registered, []},
-  {applications, [kernel, stdlib]},
-  {pkg_name, "bson_erlang"},
-  {licenses, ["Apache License 2.0"]},
-  {links, [
-           {"Github", "https://github.com/filmor/bson-erlang"},
-           {"Upstream", "https://github.com/comtihon/bson-erlang"}
-          ]
-  }
- ]}.
+{application,bson,
+             [{description,"BSON are JSON-like objects with a standard binary serialization. See bsonspec.org"},
+              {vsn,"0.3.1"},
+              {registered,[]},
+              {applications,[kernel,stdlib]},
+              {pkg_name,"bson_erlang"},
+              {licenses,["Apache License 2.0"]},
+              {links,[{"Github","https://github.com/filmor/bson-erlang"},
+                      {"Upstream",
+                       "https://github.com/comtihon/bson-erlang"}]}]}.
